@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 
+from .db.db import create_db_and_tables
+
 app = FastAPI()
+create_db_and_tables()
 
 
 @app.get("/")

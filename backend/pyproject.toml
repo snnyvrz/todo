@@ -11,6 +11,9 @@ uvicorn = {version = ">=0.30.3,<0.31.0", extras = ["standard"]}
 pydantic = ">=2.8.2,<2.9.0"
 starlette = ">=0.37.2,<0.38.0"
 fastapi = ">=0.111.1,<0.112.0"
+sqlmodel = ">=0.0.21,<0.1.0"
+psycopg = ">=3.2.1,<3.3.0"
+python-dotenv = ">=1.0.1,<1.1.0"
 
 
 [build-system]
