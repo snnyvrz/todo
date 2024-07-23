@@ -1,5 +1,12 @@
 {
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.autoImportCompletions": true,
-  "cSpell.words": ["dotenv", "fastapi", "psycopg", "sqlmodel"]
+  "cSpell.words": [
+    "dotenv",
+    "fastapi",
+    "psycopg",
+    "pydantic",
+    "sqlalchemy",
+    "sqlmodel"
+  ]
 }
